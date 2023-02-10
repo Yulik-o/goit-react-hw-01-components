@@ -1,0 +1,26 @@
+.item {
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 210px;
+    border: 2px solid rgb(152, 167, 152);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .online {
+    composes: status;
+    background-color: yellowgreen;
+  }
+  
+  .offline {
+    composes: status;
+    background-color: red;
+  }

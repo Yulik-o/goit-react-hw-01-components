@@ -1,0 +1,37 @@
+.statList {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .statistics {
+    display: flex;
+    margin: 15px auto;
+    /* justify-content: center; */
+    /* text-align: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 210px;
+    border: 2px solid rgb(152, 167, 152);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+  
+  .title {
+    margin-top: 5px;
+    margin-bottom: 5%;
+    color: rgb(152, 167, 152);
+    border-radius: 5px;
+  }
+  
+  .item {
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(152, 167, 152);
+    border-radius: 5px;;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
