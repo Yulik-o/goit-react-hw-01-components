@@ -12,3 +12,9 @@
   .tableNames {
     color: rgb(152, 167, 152);
   }
+  table, td{ 
+    border-style: solid;
+    border-color: rgb(152, 167, 152);
+    border-width: 1px
+    
+}
