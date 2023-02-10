@@ -7,14 +7,14 @@ export function Statistics({ title, stats }) {
       {title && <h2 className={styles.title}>{title}</h2>}
 
       <ul className={styles.statList}>
-        {stats.map(({id, label, percentage}) => {
+        {stats.map(({ id, label, percentage }) => {
           return (
-          <li className={styles.item} key={id}>
-            <span className={styles.label}>{label}</span>
-            <span className={styles.percentage}>{percentage}%</span>
-          </li>
-          )
-})}
+            <li className={styles.item} key={id}>
+              <span className={styles.label}>{label}</span>
+              <span className={styles.percentage}>{percentage}%</span>
+            </li>
+          );
+        })}
       </ul>
     </section>
   );
