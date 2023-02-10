@@ -6,7 +6,7 @@ return (
     <table className={styles.transactionHistory}>
   <thead className={styles.tableNames}>
     <tr>
-      <th>Type</th>
+      <th className={styles.type}>Type</th>
       <th>Amount</th>
       <th>Currency</th>
     </tr>
